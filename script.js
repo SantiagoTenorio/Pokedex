@@ -82,8 +82,7 @@ const renderPokemonStats = stats => {
 
 const renderNotFound = () => {
     pokeName.textContent = 'No encontrado';
-    pokeImg.setAttribute('src', 'poke-shadow.png');
-    pokeImg.style.background =  '#fff';
+    pokeImg.setAttribute('src', 'images/pokeball.png');
     pokeTypes.innerHTML = '';
     pokeStats.innerHTML = '';
     pokeId.textContent = '';

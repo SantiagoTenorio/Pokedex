@@ -11,6 +11,7 @@ form {
 input {
     width: 100%;
     padding: 10px;
+    border-radius: 20%;
 }
 
 .poke-card {
@@ -25,19 +26,7 @@ input {
     margin: 0 auto;
     background-color: mediumaquamarine;
     border: 1px solid black;
-}
-
-.poke-card::before {
-    content: '';
-    background: radial-gradient(black 33%, transparent 33%);
-    background-size: 3px 3px;
-    border-radius: 4px;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    z-index: -1;
+    border-radius: 20%;
 }
 
 .img-container {
@@ -63,5 +52,5 @@ input {
 
 .poke-img {
     width: 180px;
-    border-radius: 50%;
+    border-radius: 20%;
 }

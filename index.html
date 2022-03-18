@@ -10,9 +10,6 @@
     <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-    <form action="" onsubmit="searchPokemon(event)">
-        <input type="text" placeholder="Ingrese nombre de pokemon" name="pokemon" autocomplete="off">
-    </form>
     <div data-poke-card class="poke-card">
         <div data-poke-name>Pokedex</div>
         <div data-poke-img-container class="img-container">
@@ -22,5 +19,8 @@
         <div data-poke-types class="poke-types"></div>
         <div data-poke-stats class="poke-stats"></div>
     </div>
+    <form action="" onsubmit="searchPokemon(event)">
+        <input type="text" placeholder="Ingrese nombre de pokemon" name="pokemon" autocomplete="off">
+    </form>
 </body>
 </html>
